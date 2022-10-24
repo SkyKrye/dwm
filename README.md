@@ -1,2 +1,2 @@
-# dwm
-my dwm fork (dwmblocks x dwm)
+# dwm/dttric
+dwm fork by dttric (me) (dwmblocks x dwm)
