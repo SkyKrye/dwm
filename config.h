@@ -60,7 +60,7 @@ static const char *dmenucmd[] = { "rofi", "-show", "drun" ,"-show-icons", NULL }
 static const char *termcmd[]  = { "alacritty", NULL };
 static const char *browser[] = { "min", NULL };
 static const char *filecmd[] = { "nemo", NULL};
-static const char *scrcmd[] = { "xfce4-screenshooter", "-r", NULL};
+static const char *scrcmd[] = { "flameshot", "gui", NULL};
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
