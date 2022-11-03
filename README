@@ -1,8 +1,8 @@
 dwm/dttric - dynamic window manager fork by dttric
-based on dwm 6.4 have dwmblocks,noborder fix,autostart (/home/username/.dwm/autostart.sh) and i3 like binds
+based on dwm 6.4 have slstatus,noborder fix,autostart (/home/username/.dwm/autostart.sh) and i3 like binds
 to start:
-1: build dwmblocks in */dwm/slstatus/ and dwm itself
-2: write autostart.sh (shell script)
+1: build slstatus in */dwm/slstatus/ and dwm itself
+2: write autostart.sh in ~/.dwm/autostart.sh (shell script)
 (if you dont use dm) 3: start dwm
 (if u use dm) 4:write dwm.desktop by myself 
 
