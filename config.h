@@ -11,7 +11,7 @@ static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_cyan[]        = "#2e3440";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -56,10 +56,10 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
-static const char *dmenucmd[] = { "rofi", "-show", "drun" ,"-show-icons", NULL };
+static const char *dmenucmd[] = { "rofi", "-show", "drun", "-show-icons", NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
-static const char *browser[] = { "min", NULL };
-static const char *filecmd[] = { "nemo", NULL };
+static const char *browser[] = { "vivaldi", NULL };
+static const char *filecmd[] = { "pcmanfm", NULL };
 static const char *scrcmd[] = { "flameshot", "gui", NULL };
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
